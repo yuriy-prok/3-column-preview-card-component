@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply flex flex-col justify-between p-11;
+}
+
+.header {
+  @apply font-shoulders text-white text-4xl uppercase mt-10;
+}
+
+.paragraph {
+  @apply font-lexend text-veryLightGray text-sm w-44 h-32 mt-7;
+}

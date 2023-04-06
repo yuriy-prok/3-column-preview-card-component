@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="flex justify-center items-center h-auto md:h-screen">
+      <div class="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1">
+        <div
+          class="bg-brightOrange rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:rounded-bl-lg"
+        >
+          <div class="card">
+            <img src="./images/icon-sedans.svg" alt="" class="w-16 h-10" />
+            <h1 class="header">sedans</h1>
+            <p class="paragraph">
+              Choose a sedan for its affordability and excellent fuel economy.
+              Ideal for cruising in the city or on your next road trip.
+            </p>
+            <button
+              class="bg-veryLightGray text-brightOrange rounded-3xl px-4 py-4 mt-14 hover:border-solid hover:border-2 hover:border-veryLightGray hover:bg-brightOrange hover:text-veryLightGray"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="bg-darkCyan">
+          <div class="card">
+            <img src="./images/icon-suvs.svg" alt="" class="w-16 h-10" />
+            <h1 class="header">suvs</h1>
+            <p class="paragraph">
+              Take an SUV for its spacious interior, power, and versatility.
+              Perfect for your next family vacation and off-road adventures.
+            </p>
+            <button
+              class="bg-veryLightGray text-darkCyan rounded-3xl px-4 py-4 mt-14 hover:border-solid hover:border-2 hover:border-veryLightGray hover:bg-darkCyan hover:text-veryLightGray"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-veryDarkCyan rounded-b-lg md:rounded-b-none md:rounded-tr-lg md:rounded-br-lg"
+        >
+          <div class="card">
+            <img src="./images/icon-luxury.svg" alt="" class="w-16 h-10" />
+            <h1 class="header">Luxury</h1>
+            <p class="paragraph">
+              Cruise in the best car brands without the bloated prices. Enjoy
+              the enhanced comfort of a luxury rental and arrive in style.
+            </p>
+            <button
+              class="bg-veryLightGray text-veryDarkCyan rounded-3xl px-4 py-4 mt-14 hover:border-solid hover:border-2 hover:border-veryLightGray hover:bg-veryDarkCyan hover:text-veryLightGray"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/yuriy-prok">Yurii Prokopiev</a>.
+      </div>
+    </footer>
+  </body>
+</html>
