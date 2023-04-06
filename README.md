@@ -10,8 +10,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3columnpreviewcardcomponentmain-IjoET-OgER)
+- Live Site URL: [Live site](https://yuriy-prok.github.io/3-column-preview-card-component/)
 
 ### Built with
 
@@ -23,5 +23,5 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Author](https://github.com/yuriy-prok)
+- Frontend Mentor - [Profile](https://www.frontendmentor.io/profile/yuriyprok)
